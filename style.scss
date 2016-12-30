@@ -1,0 +1,70 @@
+.navbar{
+	position: inherit;
+}
+
+body{
+	padding-top: 0;
+}
+
+.jose{
+	height: 95px;
+	display: flex;
+	align-items: center;
+	h3{
+		text-transform: uppercase;
+		padding-left: 82px;
+		background: -webkit-linear-gradient(#4789b9, #1f5c95);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+  		font-size: 35px;
+	}
+}
+
+.row{ 
+	.sociales{
+		padding-left: 83px;
+		display: flex;
+		align-items: center;
+		height: 95px;
+
+
+		.circulo {
+			text-align: center;
+			&.celeste {
+			  background-color: #3f83c2;
+			  border-radius: 50%;
+			  width: 35px;
+	    	  height: 35px;
+			  display: block;
+			  margin: 0 auto 0 auto;
+			  margin-left: 0;
+    		  margin-right: 0;
+    		  i {
+				margin-bottom: 0;
+				font-size: 20px;
+				line-height: 35px;
+				color: white;
+				}
+			}
+			&.gris {
+			  background-color: #bebebe;
+			  border-radius: 50%;
+			  width: 35px;
+	    	  height: 35px;
+			  display: block;
+			  margin: 0 auto 0 auto;
+			  margin-left: 6px;
+    		  margin-right: 0;
+    		  i {
+				margin-bottom: 0;
+				font-size: 20px;
+				line-height: 35px;
+				color: #5f5f5f;
+				}
+			}
+		}
+	}
+}
+
+
+
